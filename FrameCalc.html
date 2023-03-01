@@ -10,14 +10,14 @@
       <button id="bar-btn">바 후렘</button>
       <button id="normal-btn">일반 후렘</button>
     </div>
-    <div id="calc-container">
+    <div id="bar-container">
       <button id="aluminum-btn">알미늄 후렘</button>
       <button id="galvanized-btn">갈바 후렘</button>
       <div id="aluminum-calc" class="calc-box">
         <label for="aluminum-length">길이 (m):</label>
         <input type="number" id="aluminum-length" />
         <button id="aluminum-calc-btn">계산</button>
-        <p id="aluminum-result"></p>
+        <p id="aluminum-result" class="result"></p>
       </div>
       <div id="galvanized-calc" class="calc-box">
         <label for="galvanized-height">높이:</label>
@@ -29,9 +29,19 @@
         <label for="galvanized-length">길이 (m):</label>
         <input type="number" id="galvanized-length" />
         <button id="galvanized-calc-btn">계산</button>
-        <p id="galvanized-result"></p>
+        <p id="galvanized-result" class="result"></p>
       </div>
     </div>
+
+    <div id="normal-container">
+      <label for="normal-width">가로 (mm):</label>
+      <input type="number" id="normal-width" />
+      <label for="normal-height">세로 (mm):</label>
+      <input type="number" id="normal-height" />
+      <button id="normal-calc-btn">계산</button>
+      <p id="normal-result" class="result"></p>
+    </div>
+
     <script src="FrameCalc.js"></script>
   </body>
 </html>

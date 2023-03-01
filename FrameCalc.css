@@ -1,3 +1,15 @@
-#calc-container {
+button {
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.calc-box {
   display: none;
+  margin-top: 10px;
+}
+
+.result {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
 }
